@@ -19,14 +19,18 @@ header {
 
 .header-amazon-logo {
   width: 100px;
-  border: 1px #131921 solid;
-  padding: 10px 6px;
-  margin-left: 10px;
+  padding: 10px 4px;
+  margin-left: 4px;
 }
-.header-amazon-logo:hover {
+.amazon-border {
+  display: flex;
+  border: 1px #131921 solid;
+}
+.amazon-border:hover {
   border: 1px white solid;
   cursor: pointer;
 }
+
 .header-add {
   font-size: small;
   color: rgb(209, 208, 208);
@@ -119,7 +123,6 @@ header {
 }
 .cart-sec {
   border: 1px #131921 solid;
-  padding: 8px 4px;
 }
 .cart-sec:hover {
   border: 1px white solid;
@@ -367,4 +370,19 @@ nav {
 .slider {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+.footer-3 {
+  display: flex;
+  height: 40px;
+  background-color: #435368;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: smaller;
+}
+.footer-2 {
+  border-bottom: 1px gray solid;
+  height: 320px;
+  background-color: #232f3e;
+  padding: 60px 180px 0px 180px;
 }
